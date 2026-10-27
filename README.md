@@ -11,7 +11,7 @@ Source code for the **Price check** Streamlit in Snowflake app. This folder is t
 | Snowflake connection | `jands` (account `gz71997.australia-east.azure`, warehouse `JANDS_WH`) |
 | App owner | `SYSADMIN` |
 | Git author | `lu.yy.33@gmail.com` |
-| Git remote | none yet |
+| Git remote | https://github.com/ipman0924/Jprice.git (`origin`, branch `main`) |
 
 ## Files
 
@@ -44,6 +44,11 @@ To get the live version again, use `GET 'snow://streamlit/VENDOR_PORTFOLIO.REPOR
 ## Change log
 
 Newest first. Each entry gives the date, what changed, why, and whether it is deployed to Snowflake.
+
+### 2026-10-27: Pushed to GitHub
+- **What:** Added remote `origin` at `https://github.com/ipman0924/Jprice.git` and pushed `main`.
+- **Why:** Keep the app source in GitHub alongside the change log.
+- **Deployed:** n/a (no app change).
 
 ### 2026-10-27: Baseline
 - **What:** Repo created from the live app (`VERSION$1`) as downloaded from Snowflake. Commit `27e575e`.
